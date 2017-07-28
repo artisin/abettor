@@ -9,7 +9,7 @@
 
 Abettor helps you manage and emit events through a mediator pattern that allows you to dispatch events. Unlike other event emitting libraries Abettor can be used asynchronously or synchronously in a blocking or non-blocking manner to give you complete control any way you want it.
 
-### Install
+## Install
 
 You can either install Abettor via npm:
 
