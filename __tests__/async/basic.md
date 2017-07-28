@@ -1,0 +1,1 @@
+__Description__: Should be able to pass the option arg `{async: false}` to the constructor and Abettor should process the events synchronously.

@@ -1,0 +1,1 @@
+__Description__: Should be able to specify `{async: false}` on individual events themselves rather then passing it to the constructor.

@@ -1,0 +1,1 @@
+__Description__: Should be able to remove an emit even through its function signature.

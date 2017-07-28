@@ -1,0 +1,1 @@
+__Description__: Test runner should finde this file, dynamically require and if `exp` is a function invoke it as an assertion.

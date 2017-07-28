@@ -1,0 +1,1 @@
+__Description__: Should be able to pass the option object property of `{once: true}` to specify that an event is only to be called once.

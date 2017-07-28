@@ -1,0 +1,1 @@
+__Description__: Should be able to create an 'emit' snapshot and invoke it at a latter point

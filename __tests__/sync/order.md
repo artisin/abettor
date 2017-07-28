@@ -1,0 +1,1 @@
+__Description__: Should be able to specify order of emit events through an option object argument with the property `{order: NUM}`

@@ -1,0 +1,1 @@
+__Description__: Should be able to pass arguments to the emit events though the emit invoke method
