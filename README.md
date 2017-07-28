@@ -3,7 +3,7 @@
 [![license](http://img.shields.io/badge/license-mit-3498db.svg)](https://github.com/artisin/abettor/blob/master/LICENSE)
 [![npm](https://img.shields.io/npm/v/abettor.svg)](https://github.com/artisin/abettor/blob/master/LICENSE)
 [![Dependencies Status](https://david-dm.org/artisin/abettor.svg)](https://david-dm.org/artisin/abettor)
-[![wercker status](https://app.wercker.com/status/9045bcfe24ee6d7e8ff8af90e472cd8f/s/master "wercker status")](https://app.wercker.com/project/byKey/9045bcfe24ee6d7e8ff8af90e472cd8f)
+[![wercker status](https://app.wercker.com/status/7118d559df30262b7197acecb7b35ed4/s/master "wercker status")](https://app.wercker.com/project/byKey/7118d559df30262b7197acecb7b35ed4)
 
 ## About
 
