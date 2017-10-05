@@ -1,9 +1,19 @@
 {
   "presets": [
+    "es2015",
     ["env", {
+      "exclude": ["transform-regenerator"],
+      "useBuiltIns": "usage",
+      "debug": true,
       "targets": {
-        "browsers": ["last 4 versions"]
+        "node": "current",
+        "browsers": ["last 2 versions"]
       },
+    }]
+  ],
+  "plugins": [
+    ["fast-async", {
+      "spec":true
     }]
   ]
 }
