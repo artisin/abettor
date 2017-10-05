@@ -29,13 +29,13 @@
 
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("regenerator-runtime/runtime"));
+		module.exports = factory(require("babel-polyfill"));
 	else if(typeof define === 'function' && define.amd)
-		define(["regenerator-runtime/runtime"], factory);
+		define(["babel-polyfill"], factory);
 	else if(typeof exports === 'object')
-		exports["abettor"] = factory(require("regenerator-runtime/runtime"));
+		exports["abettor"] = factory(require("babel-polyfill"));
 	else
-		root["abettor"] = factory(root["regenerator-runtime/runtime"]);
+		root["abettor"] = factory(root["babel-polyfill"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_1__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -106,6 +106,20 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
+__webpack_require__(1);
+module.exports = __webpack_require__(2);
+
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+module.exports = require("babel-polyfill");
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
 
 
@@ -119,7 +133,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-__webpack_require__(1);
+// import 'babel-polyfill';
+
 
 var Abettor = function () {
   function Abettor() {
@@ -425,7 +440,7 @@ var Abettor = function () {
        * @param  {fnc} fn -> emit function
        */
       var emit = function () {
-        var _ref2 = _asyncToGenerator(regeneratorRuntime.mark(function _callee(fn) {
+        var _ref2 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(fn) {
           var fnArgs, i;
           return regeneratorRuntime.wrap(function _callee$(_context) {
             while (1) {
@@ -513,7 +528,7 @@ var Abettor = function () {
        * either way the emit events are called sync in order
        */
       var emitAsync = function () {
-        var _ref3 = _asyncToGenerator(regeneratorRuntime.mark(function _callee2(fn, fnArgs, next) {
+        var _ref3 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2(fn, fnArgs, next) {
           return regeneratorRuntime.wrap(function _callee2$(_context2) {
             while (1) {
               switch (_context2.prev = _context2.next) {
@@ -593,12 +608,6 @@ var Abettor = function () {
 }();
 
 module.exports = Abettor;
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports) {
-
-module.exports = require("regenerator-runtime/runtime");
 
 /***/ })
 /******/ ]);

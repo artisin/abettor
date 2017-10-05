@@ -10,7 +10,10 @@ const dev           = process.env.NODE_ENV === 'dev';
  */
 const base = {
   entry: {
-    abettor: path.resolve(__dirname, './lib/index.js')
+    abettor: [
+      "babel-polyfill",
+      path.resolve(__dirname, './lib/index.js')
+    ]
   },
   devtool: dev ? '#eval-source-map' : 'source-map',
   output: {
