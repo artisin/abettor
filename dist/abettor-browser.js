@@ -9069,9 +9069,6 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-// import 'babel-polyfill';
-
-
 var Abettor = function () {
   function Abettor() {
     var option = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
