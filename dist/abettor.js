@@ -331,6 +331,11 @@ var Abettor = function () {
     this.async = option.async;
     this.blocking = option.blocking;
     this.typeCheck = option.typeCheck;
+    // Bind Class Methods
+    this.emit = this.emit.bind(this);
+    this.on = this.on.bind(this);
+    this.remove = this.remove.bind(this);
+    this.snapshot = this.snapshot.bind(this);
   }
 
   /**
