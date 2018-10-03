@@ -11,7 +11,6 @@ const dev           = process.env.NODE_ENV === 'dev';
 const base = {
   entry: {
     abettor: [
-      "babel-polyfill",
       path.resolve(__dirname, './lib/index.js')
     ]
   },
