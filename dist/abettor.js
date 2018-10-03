@@ -29,14 +29,14 @@
 
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("babel-polyfill"));
+		module.exports = factory();
 	else if(typeof define === 'function' && define.amd)
-		define(["babel-polyfill"], factory);
+		define([], factory);
 	else if(typeof exports === 'object')
-		exports["abettor"] = factory(require("babel-polyfill"));
+		exports["abettor"] = factory();
 	else
-		root["abettor"] = factory(root["babel-polyfill"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE_1__) {
+		root["abettor"] = factory();
+})(typeof self !== 'undefined' ? self : this, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -106,18 +106,11 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(1);
-module.exports = __webpack_require__(2);
+module.exports = __webpack_require__(1);
 
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
-
-module.exports = require("babel-polyfill");
-
-/***/ }),
-/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -132,6 +125,198 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+__webpack_require__(2);
+
+__webpack_require__(3);
+
+__webpack_require__(4);
+
+__webpack_require__(5);
+
+__webpack_require__(6);
+
+__webpack_require__(7);
+
+__webpack_require__(8);
+
+__webpack_require__(9);
+
+__webpack_require__(10);
+
+__webpack_require__(11);
+
+__webpack_require__(12);
+
+__webpack_require__(13);
+
+__webpack_require__(14);
+
+__webpack_require__(15);
+
+__webpack_require__(16);
+
+__webpack_require__(17);
+
+__webpack_require__(18);
+
+__webpack_require__(19);
+
+__webpack_require__(20);
+
+__webpack_require__(21);
+
+__webpack_require__(22);
+
+__webpack_require__(23);
+
+__webpack_require__(24);
+
+__webpack_require__(25);
+
+__webpack_require__(26);
+
+__webpack_require__(27);
+
+__webpack_require__(28);
+
+__webpack_require__(29);
+
+__webpack_require__(30);
+
+__webpack_require__(31);
+
+__webpack_require__(32);
+
+__webpack_require__(33);
+
+__webpack_require__(34);
+
+__webpack_require__(35);
+
+__webpack_require__(36);
+
+__webpack_require__(37);
+
+__webpack_require__(38);
+
+__webpack_require__(39);
+
+__webpack_require__(40);
+
+__webpack_require__(41);
+
+__webpack_require__(42);
+
+__webpack_require__(43);
+
+__webpack_require__(44);
+
+__webpack_require__(45);
+
+__webpack_require__(46);
+
+__webpack_require__(47);
+
+__webpack_require__(48);
+
+__webpack_require__(49);
+
+__webpack_require__(50);
+
+__webpack_require__(51);
+
+__webpack_require__(52);
+
+__webpack_require__(53);
+
+__webpack_require__(54);
+
+__webpack_require__(55);
+
+__webpack_require__(56);
+
+__webpack_require__(57);
+
+__webpack_require__(58);
+
+__webpack_require__(59);
+
+__webpack_require__(60);
+
+__webpack_require__(61);
+
+__webpack_require__(62);
+
+__webpack_require__(63);
+
+__webpack_require__(64);
+
+__webpack_require__(65);
+
+__webpack_require__(66);
+
+__webpack_require__(67);
+
+__webpack_require__(68);
+
+__webpack_require__(69);
+
+__webpack_require__(70);
+
+__webpack_require__(71);
+
+__webpack_require__(72);
+
+__webpack_require__(73);
+
+__webpack_require__(74);
+
+__webpack_require__(75);
+
+__webpack_require__(76);
+
+__webpack_require__(77);
+
+__webpack_require__(78);
+
+__webpack_require__(79);
+
+__webpack_require__(80);
+
+__webpack_require__(81);
+
+__webpack_require__(82);
+
+__webpack_require__(83);
+
+__webpack_require__(84);
+
+__webpack_require__(85);
+
+__webpack_require__(86);
+
+__webpack_require__(87);
+
+__webpack_require__(88);
+
+__webpack_require__(89);
+
+__webpack_require__(90);
+
+__webpack_require__(91);
+
+__webpack_require__(92);
+
+__webpack_require__(93);
+
+__webpack_require__(94);
+
+__webpack_require__(95);
+
+__webpack_require__(96);
+
+__webpack_require__(97);
 
 var Abettor = function () {
   function Abettor() {
@@ -605,6 +790,582 @@ var Abettor = function () {
 }();
 
 module.exports = Abettor;
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.typed.array-buffer");
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.typed.int8-array");
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.typed.uint8-array");
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.typed.uint8-clamped-array");
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.typed.int16-array");
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.typed.uint16-array");
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.typed.int32-array");
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.typed.uint32-array");
+
+/***/ }),
+/* 10 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.typed.float32-array");
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.typed.float64-array");
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.map");
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.set");
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.weak-map");
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.weak-set");
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.reflect.apply");
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.reflect.construct");
+
+/***/ }),
+/* 18 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.reflect.define-property");
+
+/***/ }),
+/* 19 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.reflect.delete-property");
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.reflect.get");
+
+/***/ }),
+/* 21 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.reflect.get-own-property-descriptor");
+
+/***/ }),
+/* 22 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.reflect.get-prototype-of");
+
+/***/ }),
+/* 23 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.reflect.has");
+
+/***/ }),
+/* 24 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.reflect.is-extensible");
+
+/***/ }),
+/* 25 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.reflect.own-keys");
+
+/***/ }),
+/* 26 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.reflect.prevent-extensions");
+
+/***/ }),
+/* 27 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.reflect.set");
+
+/***/ }),
+/* 28 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.reflect.set-prototype-of");
+
+/***/ }),
+/* 29 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.promise");
+
+/***/ }),
+/* 30 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.symbol");
+
+/***/ }),
+/* 31 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.object.freeze");
+
+/***/ }),
+/* 32 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.object.seal");
+
+/***/ }),
+/* 33 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.object.prevent-extensions");
+
+/***/ }),
+/* 34 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.object.is-frozen");
+
+/***/ }),
+/* 35 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.object.is-sealed");
+
+/***/ }),
+/* 36 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.object.is-extensible");
+
+/***/ }),
+/* 37 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.object.get-own-property-descriptor");
+
+/***/ }),
+/* 38 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.object.get-prototype-of");
+
+/***/ }),
+/* 39 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.object.keys");
+
+/***/ }),
+/* 40 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.object.get-own-property-names");
+
+/***/ }),
+/* 41 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.object.assign");
+
+/***/ }),
+/* 42 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.object.is");
+
+/***/ }),
+/* 43 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.object.set-prototype-of");
+
+/***/ }),
+/* 44 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.function.name");
+
+/***/ }),
+/* 45 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.string.raw");
+
+/***/ }),
+/* 46 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.string.from-code-point");
+
+/***/ }),
+/* 47 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.string.code-point-at");
+
+/***/ }),
+/* 48 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.string.repeat");
+
+/***/ }),
+/* 49 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.string.starts-with");
+
+/***/ }),
+/* 50 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.string.ends-with");
+
+/***/ }),
+/* 51 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.string.includes");
+
+/***/ }),
+/* 52 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.regexp.flags");
+
+/***/ }),
+/* 53 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.regexp.match");
+
+/***/ }),
+/* 54 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.regexp.replace");
+
+/***/ }),
+/* 55 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.regexp.split");
+
+/***/ }),
+/* 56 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.regexp.search");
+
+/***/ }),
+/* 57 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.array.from");
+
+/***/ }),
+/* 58 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.array.of");
+
+/***/ }),
+/* 59 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.array.copy-within");
+
+/***/ }),
+/* 60 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.array.find");
+
+/***/ }),
+/* 61 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.array.find-index");
+
+/***/ }),
+/* 62 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.array.fill");
+
+/***/ }),
+/* 63 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.array.iterator");
+
+/***/ }),
+/* 64 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.number.is-finite");
+
+/***/ }),
+/* 65 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.number.is-integer");
+
+/***/ }),
+/* 66 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.number.is-safe-integer");
+
+/***/ }),
+/* 67 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.number.is-nan");
+
+/***/ }),
+/* 68 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.number.epsilon");
+
+/***/ }),
+/* 69 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.number.min-safe-integer");
+
+/***/ }),
+/* 70 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.number.max-safe-integer");
+
+/***/ }),
+/* 71 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.math.acosh");
+
+/***/ }),
+/* 72 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.math.asinh");
+
+/***/ }),
+/* 73 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.math.atanh");
+
+/***/ }),
+/* 74 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.math.cbrt");
+
+/***/ }),
+/* 75 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.math.clz32");
+
+/***/ }),
+/* 76 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.math.cosh");
+
+/***/ }),
+/* 77 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.math.expm1");
+
+/***/ }),
+/* 78 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.math.fround");
+
+/***/ }),
+/* 79 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.math.hypot");
+
+/***/ }),
+/* 80 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.math.imul");
+
+/***/ }),
+/* 81 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.math.log1p");
+
+/***/ }),
+/* 82 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.math.log10");
+
+/***/ }),
+/* 83 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.math.log2");
+
+/***/ }),
+/* 84 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.math.sign");
+
+/***/ }),
+/* 85 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.math.sinh");
+
+/***/ }),
+/* 86 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.math.tanh");
+
+/***/ }),
+/* 87 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es6.math.trunc");
+
+/***/ }),
+/* 88 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es7.array.includes");
+
+/***/ }),
+/* 89 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es7.object.values");
+
+/***/ }),
+/* 90 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es7.object.entries");
+
+/***/ }),
+/* 91 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es7.object.get-own-property-descriptors");
+
+/***/ }),
+/* 92 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es7.string.pad-start");
+
+/***/ }),
+/* 93 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/es7.string.pad-end");
+
+/***/ }),
+/* 94 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/web.timers");
+
+/***/ }),
+/* 95 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/web.immediate");
+
+/***/ }),
+/* 96 */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/modules/web.dom.iterable");
+
+/***/ }),
+/* 97 */
+/***/ (function(module, exports) {
+
+module.exports = require("regenerator-runtime/runtime");
 
 /***/ })
 /******/ ]);
